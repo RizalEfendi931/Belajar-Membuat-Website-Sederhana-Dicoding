@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*Header Start*/
+header.Contener-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 999;
+    position: top;
+    margin: 10px 10px 10px;
+    padding: 10px 10px 20px;
+    border-bottom: 2px solid #5e4e4e;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Contener-1 h3 a{
+    font-size: 2rem;
+    color: black;
+}
+
+.Contener-1 h3 span {
+    color: blue;
+}
+
+.Contener-1 nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    text-decoration: none;
+}
+
+.Contener-1 nav ul li {
+    list-style: none;
+}
+
+.Contener-1 nav ul li a {
+    text-decoration: none;
+}
+
+.Contener-1 nav ul li a:hover{
+    border: 1px solid #eee;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: rgb(226, 224, 224);
+    background-color: rgb(31, 23, 23);
+    border-radius: 20px;
+}
+
+/*Header End*/
+
+/*Main Start*/
+main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+}
+.isi-conten {
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+.box {
+    box-shadow: 2px 4px 8px 0px black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.gambar {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.link:hover {
+    font-weight: bold;
+    color: rgb(247, 19, 19);
+    font-size: 1.1rem;
+}
+
+
+/*Aside Start*/
+aside {
+    flex: 1.8;
+}
+
+.project h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hari {
+    box-shadow: 0px 4px 6px 2px black;
+    border-radius: 15px;
+    padding: 23px;
+    margin-bottom: 10px;
+}
+
+.char {
+    box-shadow: 0px 4px 6px 2px black;
+    border-radius: 15px;
+    padding: 23px;
+    margin-bottom: 10px;
+}
+
+.char .char-img { 
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.char h4 {
+    text-align: center;
+}
+
+/*Aside End*/
+
+/*Footer Start*/
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color:black;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Footer  End*/
